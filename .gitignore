@@ -1,0 +1,86 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.local
+secrets.json
+*.pfx
+*.pem
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.venv/
+venv/
+env/
+
+# Python packaging / build
+build/
+dist/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Azure / deployment artifacts
+.azure/
+*.publish.xml
+*.zip
+*.tar.gz
+
+# .NET / C#
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+TestResults/
+
+# Node / front-end
+node_modules/
+.npm/
+.parcel-cache/
+.next/
+out/
+coverage/
+
+# Java / Gradle / Maven (common in enterprise stacks)
+.gradle/
+.gradle-cache/
+*.class
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# JetBrains / Rider
+.idea/
+*.iml
+
+# Windows-specific
+*.lnk
